@@ -1,0 +1,137 @@
+body {
+ background-color: rgba(5, 2, 10, 9)
+
+} 
+.box {
+top: 11%;
+left:30%;
+padding: 5px;
+margin: 10px 0px 0px 20px;
+width: 100px;
+height: 40px;
+background: crimson;
+transition-property: background;
+transition-duration: 1s;
+  position: absolute
+
+}
+.box:hover {
+background: #4A0000 ;
+
+}
+.bt2{
+  top: 20%;
+  left: 35%;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  z-index: 2;
+  background: crimson;
+}
+.bt2 {
+padding: 5px;
+margin: 0px 10px 10px 0px;
+width: 100px;
+height: 40px;
+background: crimson;
+transition-property: background;
+transition-duration: 1s;
+}
+.bt2:hover {
+background: #4A0000;
+}
+/*przycisk 3*/
+.bt3{
+  top: 28%;
+  left: 35%;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  z-index: 2;
+  background: crimson;
+}
+      .bt3 {
+padding: 5px;
+margin: 0px 10px 10px 0px;
+width: 100px;
+height: 40px;
+background: crimson;
+transition-property: background;
+transition-duration: 1s;
+
+}
+.bt3:hover {
+background: #330000;
+
+}
+
+
+
+
+/* Credit actve */
+.bt3:hover{
+  
+  
+  
+}
+/*background smooth effect */
+
+  body:hover{
+  background:#330000
+  
+    
+  }
+body:hover{
+  color: #FFFFFF
+  
+    
+  }
+/*more */
+h1
+{
+  
+  color: #E39B36;
+  top: 1%;
+  left: 20%;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  z-index: 2;
+  transition-property: text;
+  transition-duration: 1s;
+  } 
+h3{
+  color: #17BBC0
+}
+h2 {
+
+  color: #757575;
+  top: 90%;
+  left: 50%;
+ 
+  position: absolute;
+  z-index: 2;
+  transition-property: text;
+  transition-duration: 10s;
+}
+
+h1:hover {
+  color: #E33636
+}
+/*Chromatic-Aberation.css */
+.outer {
+  position: relative;
+  max-width: 600px;
+}
+img {
+  width: 300px;
+}
+.a {
+  
+  -webkit-filter: url(#a);
+  transition-duration: 4s ;
+  
+}
+.text2:hover {
+  color: #C71F1F
+}
